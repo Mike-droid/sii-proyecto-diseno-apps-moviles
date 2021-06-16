@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuLateral"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/menuIcono2"
+        android:onClick="cerrarMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/menuicon"
+        android:background="@color/secondaryColor"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"/>
+    <Button
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitud de servicio social"/>
+    <Button
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solicitud de residencias profesionales"/>
+    <Button
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos generales"/>
+    <Button
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos socioeconómicos"/>
+    <Button
+        android:background="@color/primaryColor"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos de emergencia"/>
+    
+
+</android.widget.LinearLayout>

@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class Home : AppCompatActivity() {
+class MenuLateral : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_home)
+        setContentView(R.layout.activity_menu_lateral)
     }
 
-    fun abrirMenu(v:View){
-        val intentoMenu:Intent = Intent(this, MenuLateral::class.java)
+    fun cerrarMenu(v: View){
+        val intentoMenu: Intent = Intent(this, Home::class.java)
         startActivity(intentoMenu)
     }
 }
