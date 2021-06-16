@@ -15,4 +15,9 @@ class VentanaSemestres1 : AppCompatActivity() {
         val intentoCerrarVentanaSemestres1: Intent = Intent(this, Home::class.java)
         startActivity(intentoCerrarVentanaSemestres1)
     }
+
+    fun mostrarMateriasSemestre1(v: View) {
+        val pantallaMaterias1: Intent = Intent(this, AvanceReticularSemestre1::class.java)
+        startActivity(pantallaMaterias1)
+    }
 }

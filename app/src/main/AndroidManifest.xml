@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.itpn.sii">
 
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +16,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SII">
-        <activity android:name=".VentanaSemestres1"></activity>
+        <activity android:name=".AvanceReticularSemestre1"></activity>
+        <activity android:name=".VentanaSemestres1" />
         <activity android:name=".MenuLateral" />
         <activity
             android:name=".Menu"
@@ -24,12 +32,5 @@
             </intent-filter>
         </activity>
     </application>
-
-    <supports-screens
-        android:anyDensity="true"
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
 
 </manifest>
