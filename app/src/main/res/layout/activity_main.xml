@@ -14,7 +14,7 @@
         android:text="SISTEMA INTEGRAL DE INFORMACIÓN"
         android:paddingBottom="20dp"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:background="@color/primaryColor"/>
     <TextView
         android:textAlignment="center"
@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:text="INSTITUTO TECNOLÓGICO DE PIEDRAS NEGRAS"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="16sp"
         android:background="@color/primaryColor"/>
 
     <LinearLayout
@@ -37,7 +37,7 @@
             android:textAlignment="center"
             android:text="Ingresa tus datos para acceder"
             android:background="@color/primaryColor"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:textColor="@color/white"
             android:paddingBottom="20dp"/>
         <TextView
@@ -45,19 +45,20 @@
             android:layout_height="wrap_content"
             android:textAlignment="textStart"
             android:text="Número de control"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:background="@color/primaryColor"
             android:textColor="@color/white" />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="17430111"
+            android:inputType="number"
             android:textSize="16sp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="NIP"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:background="@color/primaryColor"
             android:textColor="@color/white" />
         <EditText
@@ -65,8 +66,10 @@
             android:layout_height="wrap_content"
             android:inputType="numberPassword"
             android:hint="****"
-            android:textSize="16sp" />
+            android:textSize="14sp" />
         <Button
+            android:id="@+id/btnIngresar"
+            android:onClick="abrirHome"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
@@ -76,7 +79,7 @@
             android:paddingRight="4dp"
             android:background="@color/secondaryColor"
             android:textColor="@color/black"
-            android:textSize="20sp"/>
+            android:textSize="16sp"/>
 
         <ImageView
             android:layout_width="wrap_content"

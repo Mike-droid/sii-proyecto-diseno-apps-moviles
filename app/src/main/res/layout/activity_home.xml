@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SISTEMA INTEGRAL DE INFORMACIÓN"
+                android:paddingBottom="20dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:background="@color/primaryColor"/>
+            <TextView
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSTITUTO TECNOLÓGICO DE PIEDRAS NEGRAS"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:background="@color/primaryColor"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/menu"
+            android:background="@color/secondaryColor" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17430111 - ISC \n Bienvenido Miguel"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:background="@color/primaryDarkColor"
+                android:textSize="14sp"/>
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VER HORARIO"
+                android:textColor="@color/white"
+                android:background="@color/primaryLightColor" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AVANCE RETICULAR"
+                android:textColor="@color/white"
+                android:background="@color/primaryLightColor" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KARDEX CALIFICACIONES"
+                android:textColor="@color/white"
+                android:background="@color/primaryLightColor" />
+
+            <Button
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REALIZAR EVALUACIÓN DOCENTE"
+                android:textColor="@color/white"
+                android:background="@color/primaryLightColor" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.widget.ScrollView>
