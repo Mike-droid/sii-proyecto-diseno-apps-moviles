@@ -15,4 +15,9 @@ class MenuLateral : AppCompatActivity() {
         val intentoMenu: Intent = Intent(this, Home::class.java)
         startActivity(intentoMenu)
     }
+
+    fun cerrarSesion(v:View) {
+        val intentoCerrarSesion: Intent = Intent(this, MainActivity::class.java)
+        startActivity(intentoCerrarSesion)
+    }
 }

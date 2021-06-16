@@ -15,51 +15,119 @@
         android:background="@color/secondaryColor"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="5dp"/>
-    <Button
-        android:background="@color/primaryColor"
-        android:textColor="@color/white"
-        android:layout_marginTop="10dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Solicitud de servicio social"/>
-    <Button
-        android:background="@color/primaryColor"
-        android:textColor="@color/white"
-        android:layout_marginTop="10dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solicitud de servicio social"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_emoji_people_24"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primaryColor"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Solicitud de residencias profesionales"/>
-    <Button
-        android:background="@color/primaryColor"
-        android:textColor="@color/white"
-        android:layout_marginTop="10dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solicitud de residencias profesionales"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/work"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primaryColor" />
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Datos generales"/>
-    <Button
-        android:background="@color/primaryColor"
-        android:textColor="@color/white"
-        android:layout_marginTop="10dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos generales"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_person_24"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primaryColor"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Datos socioeconómicos"/>
-    <Button
-        android:background="@color/primaryColor"
-        android:textColor="@color/white"
-        android:layout_marginTop="10dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos socioeconómicos"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_attach_money_24"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primaryColor"/>
+    </LinearLayout>
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Datos de emergencia"/>
-    
-
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos de emergencia"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_health_and_safety_24"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primaryColor"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@color/primaryColor"
+            android:textColor="@color/white"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cerrar sesión"/>
+        <ImageView
+            android:onClick="cerrarSesion"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/logout"
+            android:layout_gravity="center_vertical"
+            android:background="@color/primaryColor"/>
+    </LinearLayout>
 </android.widget.LinearLayout>
