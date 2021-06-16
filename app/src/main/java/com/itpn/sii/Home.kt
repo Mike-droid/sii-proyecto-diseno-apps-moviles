@@ -15,4 +15,9 @@ class Home : AppCompatActivity() {
         val intentoMenu:Intent = Intent(this, MenuLateral::class.java)
         startActivity(intentoMenu)
     }
+
+    fun abrirVentanaSemestres(v:View) {
+        val intentoVentanaSemestres1: Intent = Intent(this, VentanaSemestres1::class.java)
+        startActivity(intentoVentanaSemestres1)
+    }
 }
