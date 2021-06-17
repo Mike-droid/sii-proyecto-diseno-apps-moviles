@@ -57,14 +57,16 @@
                 android:textColor="@color/white"
                 android:background="@color/primaryDarkColor"
                 android:textSize="14sp"/>
+
             <Button
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
+                android:onClick="abrirHorario"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/primaryLightColor"
                 android:text="VER HORARIO"
-                android:textColor="@color/white"
-                android:background="@color/primaryLightColor" />
+                android:textColor="@color/white" />
 
             <Button
                 android:onClick="abrirVentanaSemestres"

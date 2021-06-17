@@ -25,4 +25,9 @@ class Home : AppCompatActivity() {
         val intentoVentanaSemestres2: Intent = Intent(this, VentanaSemestres2::class.java)
         startActivity(intentoVentanaSemestres2)
     }
+
+    fun abrirHorario(v:View) {
+        val horario: Intent = Intent(this, Horario::class.java)
+        startActivity(horario)
+    }
 }

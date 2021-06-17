@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Horario">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="6"
+            android:rowCount="8">
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Materia" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Lunes" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Martes" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Miércoles" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Jueves" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Viernes" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Graficación" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="12:00-13:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="12:00-13:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="12:00-13:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="12:00-13:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hora libre" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Sistemas programables" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="10:00-11:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="10:00-11:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="10:00-11:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="10:00-11:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hora libre" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Programación lógica y funcional" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="13:00-14:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="13:00-14:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="13:00-14:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="13:00-14:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hora libre" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Administración de Redes" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="11:00-12:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="11:00-12:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="11:00-12:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="11:00-12:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hora libre" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Taller de investigación 2" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="9:00-10:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="9:00-10:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="9:00-10:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="9:00-10:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hora libre" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Diseño e implementación de sitios web" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="8:00-9:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="8:00-9:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="8:00-9:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hora libre" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="9:00-11:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Diseño para aplicaciones móviles" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="14:00-15:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="14:00-15:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="14:00-15:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="14:00-15:00" />
+            <TextView
+                android:padding="5dp"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="14:00-15:00" />
+        </GridLayout>
+    </HorizontalScrollView>
+
+</android.widget.ScrollView>
