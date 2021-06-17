@@ -11,4 +11,272 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string-array name="tipos_de_sangre">
+        <item>O-</item>
+        <item>O+</item>
+        <item>A-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>AB-</item>
+        <item>AB+</item>
+    </string-array>
+
+    <string-array name="estados_mexico">
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Chihuahua</item>
+        <item>Ciudad de México</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Durango</item>
+        <item>Estado de México</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+
+    <string-array name="ciudades_coahuila">
+        <item>Abasolo</item>
+        <item>Acuña</item>
+        <item>Allende</item>
+        <item>Arteaga</item>
+        <item>Candela</item>
+        <item>Castaños</item>
+        <item>Cuatro Ciénegas</item>
+        <item>Escobedo</item>
+        <item>Francisco I. Madero</item>
+        <item>Frontera</item>
+        <item>General Cepeda</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jiménez</item>
+        <item>Juárez</item>
+        <item>Lamadrid</item>
+        <item>Matamoros</item>
+        <item>Monclova</item>
+        <item>Morelos</item>
+        <item>Múzquiz</item>
+        <item>Nadadores</item>
+        <item>Nava</item>
+        <item>Ocampo</item>
+        <item>Parras</item>
+        <item>Piedras Negras</item>
+        <item>Progreso</item>
+        <item>Ramos Arizpe</item>
+        <item>Sabinas</item>
+        <item>Sacramento</item>
+        <item>Saltillo</item>
+        <item>San Buenaventura</item>
+        <item>San Juan de Sabinas</item>
+        <item>San Pedro</item>
+        <item>Sierra Mojada</item>
+        <item>Torreón</item>
+        <item>Viesca</item>
+        <item>Villa Unión</item>
+        <item>Zaragoza</item>
+    </string-array>
+
+    <string-array name="cp_piedras_negras">
+        <item>26069</item>
+        <item>26040</item>
+        <item>26080</item>
+        <item>26080</item>
+        <item>26099</item>
+        <item>26017</item>
+        <item>26094</item>
+        <item>26030</item>
+        <item>26083</item>
+        <item>26083</item>
+        <item>26033</item>
+        <item>26015</item>
+        <item>26080</item>
+        <item>26083</item>
+        <item>26017</item>
+        <item>26030</item>
+        <item>26040</item>
+        <item>26040</item>
+        <item>26030</item>
+        <item>26020</item>
+        <item>26014</item>
+        <item>26137</item>
+        <item>26034</item>
+        <item>26060</item>
+        <item>26070</item>
+        <item>26010</item>
+        <item>26089</item>
+        <item>26095</item>
+        <item>26017</item>
+        <item>26030</item>
+        <item>26080</item>
+        <item>26094</item>
+        <item>26069</item>
+        <item>26089</item>
+        <item>26080</item>
+        <item>26015</item>
+        <item>26069</item>
+        <item>26016</item>
+        <item>26088</item>
+        <item>26015</item>
+        <item>26092</item>
+        <item>26015</item>
+        <item>26119</item>
+        <item>26016</item>
+        <item>26030</item>
+        <item>26120</item>
+        <item>26016</item>
+        <item>26064</item>
+        <item>26070</item>
+        <item>26010</item>
+        <item>26133</item>
+        <item>26016</item>
+        <item>26088</item>
+        <item>26050</item>
+        <item>26030</item>
+        <item>26085</item>
+        <item>26010</item>
+        <item>26030</item>
+        <item>26068</item>
+        <item>26020</item>
+        <item>26015</item>
+        <item>26080</item>
+        <item>26093</item>
+        <item>26016</item>
+        <item>26140</item>
+        <item>26050</item>
+        <item>26060</item>
+        <item>26093</item>
+        <item>26017</item>
+        <item>26050</item>
+        <item>26070</item>
+        <item>26086</item>
+        <item>26060</item>
+        <item>26080</item>
+        <item>26018</item>
+        <item>26016</item>
+        <item>26020</item>
+        <item>26114</item>
+        <item>26085</item>
+        <item>26093</item>
+        <item>26050</item>
+        <item>26015</item>
+        <item>26085</item>
+        <item>26070</item>
+        <item>26010</item>
+        <item>26016</item>
+        <item>26017</item>
+        <item>26064</item>
+        <item>26070</item>
+        <item>26070</item>
+        <item>26073</item>
+        <item>26140</item>
+        <item>26068</item>
+        <item>26015</item>
+        <item>26017</item>
+        <item>26063</item>
+        <item>26093</item>
+        <item>26070</item>
+        <item>26089</item>
+        <item>26093</item>
+        <item>26080</item>
+        <item>26069</item>
+        <item>26093</item>
+        <item>26094</item>
+        <item>26093</item>
+        <item>26069</item>
+        <item>26015</item>
+        <item>26015</item>
+        <item>26015</item>
+        <item>26095</item>
+        <item>26070</item>
+        <item>26070</item>
+        <item>26030</item>
+        <item>26020</item>
+        <item>26035</item>
+        <item>26070</item>
+        <item>26015</item>
+        <item>26069</item>
+        <item>26060</item>
+        <item>26095</item>
+        <item>26018</item>
+        <item>26060</item>
+        <item>26073</item>
+        <item>26064</item>
+        <item>26000</item>
+        <item>26069</item>
+        <item>26093</item>
+        <item>26030</item>
+        <item>26069</item>
+        <item>26063</item>
+        <item>26016</item>
+        <item>26033</item>
+        <item>26015</item>
+        <item>26094</item>
+        <item>26070</item>
+        <item>26089</item>
+        <item>26069</item>
+        <item>26096</item>
+        <item>26017</item>
+        <item>26093</item>
+        <item>26025</item>
+        <item>26093</item>
+        <item>26070</item>
+        <item>26110</item>
+        <item>26094</item>
+        <item>26017</item>
+        <item>26040</item>
+        <item>26017</item>
+        <item>26094</item>
+        <item>26018</item>
+        <item>26018</item>
+        <item>26093</item>
+        <item>26089</item>
+        <item>26069</item>
+        <item>26080</item>
+        <item>26069</item>
+        <item>26069</item>
+        <item>26088</item>
+        <item>26050</item>
+        <item>26083</item>
+        <item>26093</item>
+        <item>26016</item>
+        <item>26016</item>
+        <item>26093</item>
+        <item>26034</item>
+        <item>26069</item>
+        <item>26093</item>
+        <item>26094</item>
+        <item>26070</item>
+        <item>26070</item>
+        <item>26093</item>
+        <item>26090</item>
+        <item>26050</item>
+        <item>26080</item>
+        <item>26013</item>
+        <item>26086</item>
+        <item>26060</item>
+        <item>26010</item>
+    </string-array>
 </resources>

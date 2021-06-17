@@ -2,13 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.itpn.sii">
 
-    <supports-screens
-        android:anyDensity="true"
-        android:largeScreens="true"
-        android:normalScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true" />
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SII">
-        <activity android:name=".Horario"></activity>
+        <activity android:name=".DatosEmergencia"></activity>
+        <activity android:name=".Horario" />
         <activity android:name=".CalificacionesSemestre1" />
         <activity android:name=".VentanaSemestres2" />
         <activity android:name=".AvanceReticularSemestre1" />
@@ -35,5 +29,12 @@
             </intent-filter>
         </activity>
     </application>
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
 
 </manifest>

@@ -20,4 +20,9 @@ class MenuLateral : AppCompatActivity() {
         val intentoCerrarSesion: Intent = Intent(this, MainActivity::class.java)
         startActivity(intentoCerrarSesion)
     }
+
+    fun abrirDatosEmergencia(v:View) {
+        val datosEmergencia: Intent = Intent(this, DatosEmergencia::class.java)
+        startActivity(datosEmergencia)
+    }
 }

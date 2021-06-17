@@ -96,6 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp">
         <Button
+            android:onClick="abrirDatosEmergencia"
             android:background="@color/primaryColor"
             android:textColor="@color/white"
             android:paddingRight="5dp"
@@ -104,6 +105,7 @@
             android:layout_height="wrap_content"
             android:text="Datos de emergencia"/>
         <ImageView
+            android:onClick="abrirDatosEmergencia"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/ic_baseline_health_and_safety_24"
