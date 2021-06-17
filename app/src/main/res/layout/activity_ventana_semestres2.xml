@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentanaSemestres2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:onClick="cerrarVentana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/secondaryLightColor"
+            android:text="←"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+
+        <TextView
+            android:onClick="mostrarCalificacionesSemestre1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 1"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 2"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 3"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 4"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 5"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 6"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 7"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semestre 8"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/primaryDarkColor"
+            android:padding="10dp"
+            android:text="Semestre 9"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+
+</android.widget.ScrollView>

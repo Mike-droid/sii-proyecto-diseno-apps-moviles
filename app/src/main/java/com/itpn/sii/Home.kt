@@ -20,4 +20,9 @@ class Home : AppCompatActivity() {
         val intentoVentanaSemestres1: Intent = Intent(this, VentanaSemestres1::class.java)
         startActivity(intentoVentanaSemestres1)
     }
+
+    fun abrirVentanaSemestres2(v:View) {
+        val intentoVentanaSemestres2: Intent = Intent(this, VentanaSemestres2::class.java)
+        startActivity(intentoVentanaSemestres2)
+    }
 }

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalificacionesSemestre1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:onClick="cerrarVentana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/secondaryLightColor"
+            android:text="←"
+            android:textColor="@color/black"
+            android:textSize="40sp" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEMESTRE 1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@color/primaryDarkColor"
+            android:textSize="16sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="3"
+            android:rowCount="7"
+            android:background="@color/primaryColor">
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="Materia"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Créditos"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calificación"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cálculo diferencial"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fundamentos de programación"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="94"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taller de ética"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="97"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Matemáticas discretas"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="92"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Taller de administración"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fundamentos de investigación"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="98"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+        </GridLayout>
+        <GridLayout
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:background="@color/primaryColor">
+            <TextView
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Promedio semestral"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="96.83"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Créditos aprobados"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text="27/27"
+                android:background="@color/primaryLightColor"
+                android:textColor="@color/white" />
+        </GridLayout>
+    </LinearLayout>
+</android.widget.ScrollView>
