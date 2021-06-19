@@ -25,4 +25,9 @@ class MenuLateral : AppCompatActivity() {
         val datosEmergencia: Intent = Intent(this, DatosEmergencia::class.java)
         startActivity(datosEmergencia)
     }
+
+    fun abrirDatosGenerales(v: View) {
+        val datosGenerales: Intent = Intent(this, DatosGenerales::class.java)
+        startActivity(datosGenerales)
+    }
 }
