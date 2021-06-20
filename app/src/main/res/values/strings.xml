@@ -335,4 +335,28 @@
         <item>Miembro de las fuerzas armadas</item>
         <item>Otro</item>
     </string-array>
+
+    <string-array name="dependes">
+        <item>Padre y Madre</item>
+        <item>Padre, Madre y Yo mismo</item>
+        <item>Padre</item>
+        <item>Padre y Yo mismo</item>
+        <item>Madre</item>
+        <item>Madre y Yo mismo</item>
+        <item>Hermanos</item>
+        <item>Hermanos y Yo mismo</item>
+        <item>Cónyuge o pareja</item>
+        <item>Cónyuge o pareja y Yo mismo</item>
+        <item>Otro familiar o amigo</item>
+        <item>Yo mismo</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="casa">
+        <item>Propia</item>
+        <item>Rentada</item>
+        <item>Prestada</item>
+        <item>Se está pagando</item>
+        <item>Otra</item>
+    </string-array>
 </resources>
