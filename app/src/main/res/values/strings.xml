@@ -279,4 +279,60 @@
         <item>26060</item>
         <item>26010</item>
     </string-array>
+
+    <string-array name="estudios_maximos">
+        <item>No lo sé</item>
+        <item>No sabe leer ni escribir</item>
+        <item>No fue a la escuela</item>
+        <item>No terminó la Primaria</item>
+        <item>Terminó la Primaria</item>
+        <item>Tiene alguna capacitación técnica después de la Primaria</item>
+        <item>No terminó la Secundaria</item>
+        <item>Terminó la Secundaria</item>
+        <item>Tiene alguna capacitación técnica después de la Secundaria</item>
+        <item>Tiene estudios de técnico profesional incompletos</item>
+        <item>Tiene estudios de técnico profesional completos</item>
+        <item>No terminó la Preparatoria o Bachillerato</item>
+        <item>Terminó la Preparatoria o Bachillerato</item>
+        <item>No terminó la Licenciatura, Ingeniería o Normal</item>
+        <item>Terminó la Licenciatura, Ingeniería o Normal</item>
+        <item>No terminó Terminó la Maestría o Doctorado</item>
+        <item>Terminó la Maestría o Doctorado</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="con_quien_vives">
+        <item>Padre y Madre</item>
+        <item>Padre</item>
+        <item>Madre</item>
+        <item>Hermanos</item>
+        <item>Cónyuge o pareja</item>
+        <item>Otro familiar</item>
+        <item>Amigo(s)</item>
+        <item>Sólo</item>
+        <item>Hijos</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="ocupacion_laboral">
+        <item>No lo sé</item>
+        <item>Labores del Hogar</item>
+        <item>Dueño de negocio, empresa, despacho o comercio estable</item>
+        <item>Profesor, investigador</item>
+        <item>Profesionista que ejerce por su cuenta</item>
+        <item>Obrero</item>
+        <item>Ganadero, agricultor o similar</item>
+        <item>Campesino, jornalero, pescador o similar</item>
+        <item>Jubilado o pensionado</item>
+        <item>Funcionario o gerente de empresa privada</item>
+        <item>Funcionario de empresa pública</item>
+        <item>Empleado, oficinista o secretaria de empresa privada</item>
+        <item>Burócrata, oficinista o secretaria de empresa pública</item>
+        <item>Trabajador de oficio con personal a su cargo</item>
+        <item>Vendedor en comercio o empresa</item>
+        <item>Vendedor por su cuenta o ambulante</item>
+        <item>Peón, ayudante, mozo o empleada doméstica</item>
+        <item>Miembro de las fuerzas armadas</item>
+        <item>Otro</item>
+    </string-array>
 </resources>

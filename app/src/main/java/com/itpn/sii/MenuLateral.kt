@@ -30,4 +30,9 @@ class MenuLateral : AppCompatActivity() {
         val datosGenerales: Intent = Intent(this, DatosGenerales::class.java)
         startActivity(datosGenerales)
     }
+
+    fun abrirDatosSocioeconomicos(v:View) {
+        val datosSocioEconomicos: Intent = Intent(this,DatosSocioEconomicos1::class.java)
+        startActivity(datosSocioEconomicos)
+    }
 }

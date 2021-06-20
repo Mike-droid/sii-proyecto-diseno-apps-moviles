@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SII">
-        <activity android:name=".DatosGenerales"></activity>
+        <activity android:name=".DatosSocioeconomicos2"></activity>
+        <activity android:name=".DatosSocioEconomicos1" />
+        <activity android:name=".DatosGenerales" />
         <activity android:name=".DatosEmergencia" />
         <activity android:name=".Horario" />
         <activity android:name=".CalificacionesSemestre1" />
